@@ -19,7 +19,7 @@ h1{
 <h1>TripParser: <font size="-1">DHPD EMAIL Pages Report Generator.</font></h1>
 <blockquote>
 <h2><a href="trip-parser/" target="_blank">Open TripParser...</a></h2>
-<h2><a href="http://popmedic.com/trips/trip-parser/report.example.html">Example HTML report</a></h2>
+<h2><a href="http://popmedic.com/trips/trip-parser/report.example.html" target="_blank">Example HTML report</a></h2>
 </blockquote>
 
 <H2>Usage:</H2>
@@ -46,7 +46,7 @@ h1{
 	reports are generated from parsing your emails, the buttons on the bottom will be
     enabled.  Clicking on the button will open that format of report.
     </blockquote>
-	<blockquote style="background-color:#F00;">
+	<blockquote style="background-color:#F00;padding:6px;border:#F00 1px solid;border-radius:4px;color:#0FF;font-weight:bold;">
     YOU WILL GET A AUTHERIZATION ERROR THE FIRST TIME YOU USE THIS.  Your gmail 
 	account has a security feature to keep other clients out. You will get an email from google seconds after 
     you run this tool the first time.  In the email there is a link to allow this client to access your emails. 
@@ -79,7 +79,8 @@ are used for the web front end that uses a php layer to talk to the ruby server 
 stdout of the ruby script is piped into a status file so that the front end can see the progress.
 <br />
 <br />
-The code for the told project can be seen at my github project repositories.
+The code for the told project can be seen at my <a href="https://github.com/popmedic/trip-parser">github 
+project repositories.</a>
 </blockquote>
 <h2>Security:</h2>
 <blockquote>
