@@ -1,6 +1,6 @@
 <h1>TripParser: <font size="-1">DHPD EMAIL Pages Report Generator.</font></h1>
 <blockquote>
-<h2><a href="http://popmedic.com/trips/trip-parser/report.example.html">Example HTML report</a></h2>
+<h2><a href="http://popmedic.com/trips/trip-parser/report.example.html" target="_blank">Example HTML report</a></h2>
 </blockquote>
 
 <H2>Usage:</H2>
