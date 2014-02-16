@@ -213,7 +213,7 @@ class TripParser
 	
 	def html_report	
 		File.open @report_file_prefix+'.html', 'w' do |file|
-			file.write '<htmL><head><title>'+@user+'</title><link href="report.css" rel= "stylesheet" type="text/css" /></head>'
+			file.write '<htmL><head><title>'+@user+'</title><link href="../report.css" rel= "stylesheet" type="text/css" /></head>'
 			file.write '<body>'
 			bdt = ''
 			edt = ''
