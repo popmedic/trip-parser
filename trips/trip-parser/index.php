@@ -156,7 +156,7 @@ button:disabled{
 var status_timer = 0;
 function resizeCanvas(){
 	cw = $('#canvas').width()+16;
-	ch = $('#canvas').height()+16;
+	ch = $('#canvas').height()+32;
 	ww = $(window).width();
 	wh = $(window).height();
 	nl = ww/2 - cw/2;
