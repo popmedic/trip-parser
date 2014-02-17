@@ -16,10 +16,10 @@ h1{
 </head>
 
 <body>
-<h1>TripParser: <font size="-1">DHPD EMAIL Pages Report Generator.</font></h1>
+<h1>TripParser: <font size="-1px">DHPD EMAIL Pages Report Generator.</font></h1>
 <blockquote>
-<h2><a href="trip-parser/" target="_blank">Open TripParser...</a></h2>
-<h2><a href="http://popmedic.com/trips/trip-parser/report.example.html" target="_blank">Example HTML report</a></h2>
+<h3><a href="trip-parser/" target="_blank">Open TripParser...</a></h3>
+<h3><a href="http://popmedic.com/trips/trip-parser/report.example.html" target="_blank">Example HTML report</a></h3>
 </blockquote>
 
 <H2>Usage:</H2>
@@ -75,7 +75,7 @@ like I always wanted.
 <h2>Technologies:</h2>
 <blockquote>
 This tool uses IMAP to access a gmail account though a ruby script.  JQuery and Javascript
-are used for the web front end that uses a php layer to talk to the ruby server script.  The
+are used for the web front end that uses a PHP layer to talk to the ruby server script.  The
 stdout of the ruby script is piped into a status file so that the front end can see the progress.
 <br />
 <br />

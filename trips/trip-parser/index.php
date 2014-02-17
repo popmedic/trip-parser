@@ -255,12 +255,6 @@ $(document).ready(function(e) {
 							 $("#csp-report-btn").removeAttr('disabled');
 							$("#html-report-btn").focus();
 						}
-                            
-						/*$('body #reports-box').append('<ul></ul>');
-						$('body #reports-box ul').append('<li><a href="trip-parser/'+rfp+'.html" target="_blank">HTML</a></li>');
-						$('body #reports-box ul').append('<li><a href="trip-parser/'+rfp+'.xml" target="_blank">XML</a></li>');
-						$('body #reports-box ul').append('<li><a href="trip-parser/'+rfp+'.txt" target="_blank">TXT</a></li>');
-						$('body #reports-box ul').append('<li><a href="trip-parser/'+rfp+'.csp" target="_blank">Comma Delimited</a></li>');*/
 					}
 					else{
 						lines = data2.replace(/^\s+|\s+$/g,"").split("\n");
